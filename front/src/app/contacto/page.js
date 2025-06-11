@@ -4,34 +4,34 @@
 export default function Contacto() {
   return (
 
-    <main class="holder contacto">
+    <main className="holder contacto">
 
         <div>
             <h2>Contacto Rápido</h2>
             <form action="" method="" class="formulario">
                 <p>
                     <label for="nombre">Nombre</label>
-                    <input type="text" name=""/>
+                    <input type="text" name="" id="nombre"/>
                 </p>
                 <p>
                     <label for="email">Email</label>
-                    <input type="text" name=""/>
+                    <input type="text" name="" id="email"/>
                 </p>
                 <p>
                     <label for="telefono">Telefono</label>
-                    <input type="number" name=""/>
+                    <input type="number" name="" id="telefono"/>
                 </p>
                 <p>
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="" id=""></textarea>
+                    <textarea name="" id="mensaje"></textarea>
                 </p>
                 <p>
-                    <input type="submit" value="Enviar"/>
+                    <input type="submit" value="Enviar" id="enviar"/>
                 </p>
             </form>
 
         </div>
-        <div class="datos">
+        <div className="datos">
             <h2>Otras vias de comunicación</h2>
             <p>También puede contactarse con nosotros usando los siguientes medios</p>
             <ul>
