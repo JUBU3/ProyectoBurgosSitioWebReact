@@ -79,7 +79,7 @@ export default function Novedades() {
                     <img src="img/producto10.png" class="card-img-top" alt="peluche" style={{width: '18rem', height: '350px'}} />
                     <div className="card-body">
                         <h5 className="card-title">Oso de Peluche</h5>
-                        <p claclassNamess="card-text">Muñeco oso de peluche, de felpa marrón claro, con ojos de botón oscuros y un lazo de tela al cuello; presenta un diseño clásico y aspecto envejecido.</p>
+                        <p className="card-text">Muñeco oso de peluche, de felpa marrón claro, con ojos de botón oscuros y un lazo de tela al cuello; presenta un diseño clásico y aspecto envejecido.</p>
                         <div className="precios">
 
                             <p className="precioAnterior">Precio: $<s>10800</s> </p>

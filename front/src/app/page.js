@@ -34,7 +34,7 @@ export default function Home() {
 
         <div className="carouselcustom">
             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+                <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active"
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
@@ -51,7 +51,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
-                        <img src="img/carroselHome2.png" class="d-block w-100" alt="..."/>
+                        <img src="img/carroselHome2.png" className="d-block w-100" alt="..."/>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
