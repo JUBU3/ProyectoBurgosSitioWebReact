@@ -1,4 +1,4 @@
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossOrigin="anonymous"></link>
 
 
 
@@ -21,7 +21,7 @@ export default function Novedades() {
                     </div>
                 </div>
                 <div className="card" style={{width: '18rem'}}>
-                    <img src="img/producto6.png" class="card-img-top" alt="espejo" style={{width: '18rem', height: '350px'}} />
+                    <img src="img/producto6.png" className="card-img-top" alt="espejo" style={{width: '18rem', height: '350px'}} />
                     <div className="card-body">
                         <h5 className="card-title">Espejo Marco Madera</h5>
                         <p className="card-text">Espejo antiguo de forma rectangular con un marco de madera finamente tallado. El diseño incluye ornamentos curvos y motivos vegetales, típicos del estilo barroco o rococó. La madera tiene un acabado cálido y envejecido que realza su carácter clásico y elegante. Ideal como pieza decorativa en ambientes vintage o tradicionales.</p>
@@ -49,7 +49,7 @@ export default function Novedades() {
 
 
                 <div className="card" style={{width: '18rem'}}>
-                    <img src="img/producto8.png" class="card-img-top" alt="camara" style={{width: '18rem', height: '350px'}} />
+                    <img src="img/producto8.png" className="card-img-top" alt="camara" style={{width: '18rem', height: '350px'}} />
                     <div className="card-body">
                         <h5 className="card-title">Camara</h5>
                         <p className="card-text">Cámara fotográfica vintage de estilo rangefinder, con cuerpo metálico plateado y recubrimiento de cuero negro. Cuenta con un objetivo de 50mm, controles mecánicos en la parte superior y visor óptico. Su diseño robusto y elegante refleja la estética clásica de las cámaras analógicas del siglo XX.</p>

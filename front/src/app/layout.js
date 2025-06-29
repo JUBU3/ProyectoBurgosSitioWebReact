@@ -5,7 +5,9 @@ import "./estilos/globals.css";
 import Header from "./componentes/Header";
 import Nav from "./componentes/Nav";
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"></link>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossOrigin="anonymous"></link>
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,18 +28,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        
-        <Header/>
-        <Nav/>
+
+        <Header />
+        <Nav />
 
         {children}
 
 
 
-            <footer>
-        <p>Diseñado por Juan Ignacio Burgos - &copy;2025</p>
-    </footer>
-
+        <footer>
+          <p>Diseñado por Juan Ignacio Burgos - &copy;2025</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossOrigin="anonymous"></script>
       </body>
     </html>
   );
